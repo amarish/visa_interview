@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.visa-page-intro {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 3rem 0;
+}
+.visa-page-intro .title {
+    font-family: "myriad-regular";
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.visa-page-intro .title.underline {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 0 0 1px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.visa-page-intro .divider-line {
+    border-color: #fff;
+    margin: 1.5rem 0;
+    opacity: 0.5;
+}
+.visa-page-intro .link-cta::after {
+    font-size: inherit;
+    top: 0.4rem;
+}
+.visa-page-intro a:not(.btn) {
+    color: #fff;
+}
+.visa-page-intro a.btn-default {
+    text-shadow: none;
+}
+.visa-page-intro h1 {
+    line-height: 110%;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.visa-page-intro li {
+    font-family: "myriad-light";
+    padding-bottom: 1rem;
+}
+.visa-page-intro.theme-blue {
+    color: #1a1f71;
+}
+.visa-page-intro.theme-blue a {
+    color: #1a1f71;
+}
+.visa-page-intro.theme-blue .divider-line {
+    border-color: #1a1f71;
+}
+.visa-page-intro.theme-blue .title.underline {
+    border-color: rgba(26, 31, 113, 0.5);
+}
+.visa-page-intro .btn-size.btn {
+    max-width: 100%;
+}
+.visa-page-intro .newHPBanner .page-related-stories {
+    display: block;
+    margin-top: 5rem;
+}
+.newHPBanner .buttonComp {
+    margin: 2.5rem 0 0rem;
+}
+.newHPBanner .buttonComp .row {
+    margin: 0;
+}
+.newHPBanner .buttonComp .mb-head-guide {
+    margin-bottom: 0;
+    padding: 0;
+}
+.newHPBanner ul.list-unstyled li {
+    line-height: 3rem;
+}
+.visa-page-intro .newHPBanner ul.list-unstyled li a:hover, .visa-page-intro .newHPBanner ul.list-unstyled li a:focus {
+    color: #fff;
+}
+.hpSubHeader {
+    font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+.visa-page-intro {
+    font-size: 1.8rem;
+    margin: 4rem 0;
+}
+.visa-page-intro .divider-line {
+    margin: 2rem 0;
+}
+}
+@media (min-width: 992px) {
+.visa-page-intro {
+    font-size: 2rem;
+    margin: 6rem 0;
+}
+.visa-page-intro .title.underline {
+    margin-bottom: 3.5rem;
+}
+.visa-page-intro .divider-line {
+    margin: 2rem 0 3.5rem;
+}
+.visa-page-intro li {
+    padding-bottom: 1.5rem;
+}
+}
+@media (min-width: 1200px) {
+.visa-page-intro {
+    font-size: 2.5rem;
+    margin: 6rem 0;
+}
+}
+@media (min-width: 1200px) and (max-height: 768px) {
+.visa-page-intro .page-related-stories {
+    display: none;
+}
+}
+@media (min-width: 1200px) and (min-height: 1025px) {
+.visa-page-intro {
+    margin: 11.5rem 0;
+}
+}
+@media (max-width: 420px) {
+.visa-page-intro .newHPBanner {
+    width: 100%;
+}
+}
+@media (min-width: 768px) {
+.newHPBanner h1 {
+    font-size: 4.4rem;
+    line-height: 110%;
+}
+.newHPBanner .hpSubHeader {
+    font-size: 1.9rem;
+    margin-bottom: 2.1rem;
+}
+.high-position {
+    margin-top: 0;
+}
+.medium-position {
+    margin-top: 80px;
+}
+.low-position {
+    margin-top: 120px;
+}
+}
+@media (min-width: 992px) {
+.newHPBanner h1 {
+    font-size: 5.4rem;
+    line-height: 110%;
+}
+.newHPBanner .wrap50 {
+    width: 50%;
+}
+.newHPBanner .hpSubHeader {
+    font-size: 2.2rem;
+    margin-bottom: 2.3rem;
+}
+.high-position {
+    margin-top: 0;
+}
+.medium-position {
+    margin-top: 130px;
+}
+.low-position {
+    margin-top: 200px;
+}
+}
+@media (min-width: 1200px) {
+.newHPBanner h1 {
+    font-size: 6rem;
+    line-height: 110%;
+}
+.newHPBanner .hpSubHeader {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.high-position {
+    margin-top: 0;
+}
+.medium-position {
+    margin-top: 160px;
+}
+.low-position {
+    margin-top: 260px;
+}
+}
+.container-background-image {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-background-image.cover {
+    background-size: cover;
+}
+@media (min-width: 768px) {
+.container-background-image {
+    background-attachment: fixed;
+    background-size: 120% auto;
+}
+}
+.visa-nav-tasks {
+    background-color: rgba(26, 31, 113, 0.95);
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    padding: 1.5rem;
+}
+.visa-nav-tasks .title {
+    border-bottom: 1px solid #f7b600;
+    font-family: "myriad-semibold";
+    font-size: 1rem;
+    line-height: 1;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.visa-nav-tasks .visa-icon {
+    color: #f7b600;
+    font-size: 3rem;
+    left: 1.5rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.visa-nav-tasks .task-link {
+    color: #fff;
+    display: block;
+    margin: 0 -1.5rem;
+    padding: 1rem 1.5rem 1rem 5.5rem;
+    position: relative;
+}
+.visa-nav-tasks .task-link:hover, .visa-nav-tasks .task-link:focus {
+    background-color: #053ea9;
+    color: #fff;
+    text-decoration: none;
+}
+.visa-nav-tasks .task-link:hover .visa-icon, .visa-nav-tasks .task-link:focus .visa-icon {
+    color: inherit;
+}
+.visa-nav-tasks .task-link .link-label {
+    font-size: 1.8rem;
+    line-height: 1;
+}
+.visa-nav-tasks ul {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.visa-nav-tasks li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.visa-nav-tasks.theme-gold {
+    background-color: rgba(247, 182, 0, 0.9);
+    color: #1a1f71;
+}
+.visa-nav-tasks.theme-gold .title {
+    border-color: #1a1f71;
+}
+.visa-nav-tasks.theme-gold .visa-icon {
+    color: #fff;
+}
+.visa-nav-tasks.theme-gold .task-link {
+    color: #1a1f71;
+}
+.visa-nav-tasks.theme-gold .task-link:hover, .visa-nav-tasks.theme-gold .task-link:focus {
+    background-color: #ffd700;
+    color: #1a1f71;
+}
+.visa-nav-tasks.theme-gold li {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 768px) {
+.visa-nav-tasks .title {
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+}
+.visa-nav-tasks .visa-icon {
+    font-size: 3rem;
+}
+.visa-nav-tasks .task-link {
+    padding: 1rem 1.5rem 1rem 5.3rem;
+}
+.visa-nav-tasks .task-link .link-label {
+    font-size: 1.6rem;
+}
+}
+@media (min-width: 992px) {
+.visa-nav-tasks .title {
+    font-size: 1.3rem;
+    padding-bottom: 0.8rem;
+}
+.visa-nav-tasks .visa-icon {
+    font-size: 3.5rem;
+}
+.visa-nav-tasks .task-link {
+    padding: 1.2rem 1.5rem 1.2rem 5.7rem;
+}
+.visa-nav-tasks .task-link .link-label {
+    font-size: 2.2rem;
+}
+}
+@media (min-width: 1200px) {
+.visa-nav-tasks .title {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.visa-nav-tasks .visa-icon {
+    font-size: 3.8rem;
+}
+.visa-nav-tasks .task-link {
+    padding: 1.5rem 1.5rem 1.5rem 6.5rem;
+}
+.visa-nav-tasks .task-link .link-label {
+    font-size: 2.6rem;
+}
+}
+.inset-shadow-bot, .focused-careers-list .body {
+    box-shadow: 0 -3px 2px -2px #d8dde1 inset;
+}
+.focused-careers-list {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+    padding: 0;
+}
+.focused-careers-list .box {
+    padding-bottom: 3rem;
+}
+.focused-careers-list .heading {
+    border-bottom: 1px solid #dedede;
+    box-shadow: 0 3px 2px -2px #d8dde1;
+    padding: 1.5rem 0 0.2rem;
+    position: relative;
+}
+.focused-careers-list .title {
+    color: #1a1f71;
+    font-family: "myriad-semibold";
+    font-size: 1.5rem;
+    line-height: 1;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.focused-careers-list .visa-icon-suitcase {
+    color: #f7b600;
+    font-size: 4rem;
+    margin-top: -7px;
+    vertical-align: middle;
+}
+.focused-careers-list .body {
+    border-bottom: 1px solid #dedede;
+    padding: 0 1.5rem;
+}
+.focused-careers-list .body h4 {
+    line-height: 1;
+}
+.focused-careers-list .body ul {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    max-height: 506px;
+    outline: 0 none;
+    overflow: auto;
+    padding: 0;
+}
+.focused-careers-list .body ul:focus, .focused-careers-list .body ul:active {
+    outline: 0 none !important;
+}
+.focused-careers-list .body ul li {
+    border-bottom: 1px solid #dedede;
+    padding: 1rem 0;
+}
+.focused-careers-list .body ul li:last-child {
+    border-bottom: 0 none;
+}
+.focused-careers-list .body .job {
+    color: #1a1f71;
+}
+.focused-careers-list .body .location {
+    color: #5c5c5c;
+}
+.focused-careers-list .body .date {
+    color: #5c5c5c;
+}
+@media (min-width: 992px) {
+.focused-careers-list .footer {
+    height: 4.2rem;
+}
+.focused-careers-list .footer .share, .focused-careers-list .footer .info {
+    display: none;
+}
+}
+.appleios .focused-careers-list .body ul {
+    overflow-y: scroll;
+}
+
